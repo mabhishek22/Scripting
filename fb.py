@@ -1,8 +1,8 @@
 from selenium import webdriver
 from getpass import getpass
 
-# usr = input('Enter the credentials\n')
-# pwd = getpass('enter password')
+usr = input('Enter the credentials\n')
+pwd = getpass('enter password')
 
 driver = webdriver.Firefox()
 driver.get('https://www.facebook.com/')
